@@ -50,3 +50,30 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+// Matt H.decides that Thom.can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
+// Karolin just had her birthday; change Karolin's array to reflect her being a year older.
+// Change Matt H's hometown from Philadelphia to "Gotham City".
+// Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
+
+thom.shift();
+thom.unshift('Gameboy');
+console.log(thom);
+karolin[1] = 17;
+console.log(karolin);
+matt[2] = 'Gotham City';
+console.log(matt);
+kristyn.pop();
+kristyn.push('Brooklyn');
+console.log(kristyn);
+
+
+
+
+
+
