@@ -72,6 +72,14 @@ kristyn.pop();
 kristyn.push('Brooklyn');
 console.log(kristyn);
 
+// Create an array with the members of the ninja turtles(Donatello, Leonardo, Raphael, Michaelangelo)
+// Use a for loop to call toUpperCase() on each of them and print out the result.
+const ninjas = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+for (let i = 0; i < ninjas.length; i++) {
+  console.log(ninjas[i].toUpperCase());
+}
+
+
 
 
 
